@@ -19,7 +19,7 @@ public class InputsTest extends BaseTest{
         String actualLettersValue = inputValue.getAttribute("value");
         String expectedLettersValue = "";
         SoftAssert asert = new SoftAssert();
-        asert.assertEquals(actualLettersValue, expectedLettersValue, "on display should be abc");
+        asert.assertEquals(actualLettersValue, expectedLettersValue, "on display shouldn't be abc");
         asert.assertAll();
         inputValue.clear();
         inputValue.sendKeys("123");
