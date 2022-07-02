@@ -16,10 +16,7 @@ public class NotificationMessagesTest extends BaseTest{
     public void notificationMessagesTextTest(){
         WebElement clickHere = driver.findElement(By.xpath("//*[text()='Click here']"));
         clickHere.click();
-        WebElement notificationMessage = driver.findElement(By.id("flash-messages"));
-        String actualText = notificationMessage.getText();
-        String expectedText = "Action successful";
-        Assert.assertEquals(actualText, expectedText, "action success message");
+        Assert.assertFalse(driver.findElements(By.xpath("//*[contains(text(),'Action successful')]")).isEmpty(), "action success message");
 
     }
 }

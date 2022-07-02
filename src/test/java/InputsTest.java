@@ -17,7 +17,7 @@ public class InputsTest extends BaseTest{
         WebElement inputValue = driver.findElement(By.tagName("input"));
         inputValue.sendKeys("abc");
         String actualLettersValue = inputValue.getAttribute("value");
-        String expectedLettersValue = "abc";
+        String expectedLettersValue = "";
         SoftAssert asert = new SoftAssert();
         asert.assertEquals(actualLettersValue, expectedLettersValue, "on display should be abc");
         asert.assertAll();
