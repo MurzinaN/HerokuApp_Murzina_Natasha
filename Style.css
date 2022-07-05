@@ -1,0 +1,75 @@
+body{
+background-image: url(src/main/resources/meadow.jpg);
+background-size: 100%;
+font-family: "Arial";
+}
+.name{
+color: yellow;
+font-size: 600%;
+text-align: center;
+}
+.name2{
+color: #00ffff;
+font-size: 200%;
+text-align: center;
+}
+.input{
+color: #0000ff;
+font-size: 130%;
+}
+.input2{
+background-color: #20b2aa;
+}
+.table {
+border-collapse: collapse;
+border: 3px solid black;
+border-button: 2px solid black;
+color: #008b8b;
+font-size: 140%;
+}
+th{
+color: #4b0082}
+.left{
+float: left;
+margin: 30px 30px 30px;
+}
+.one_text{
+font-size: 150%;
+color: yellow;
+}
+.text{
+font-size: 120%;
+color: #000080;
+}
+.activity{
+font-size: 150%;
+color: #0000ff;
+}
+
+select{
+background-color: ##20b2aa;
+font-size: 120%;
+color: #000080;
+}
+.weather{
+font-size: 170%;
+color: #c71585;
+}
+.weather:hover{
+font-size: 200%;
+color: #4b0082;
+}
+.button{
+font-size: 250%;
+background-color: #ffff00;
+color:#ff6347;
+border-radius: 12px;
+border: 3px solid red;
+}
+.button:hover{
+font-size: 250%;
+background-color: red;
+color:#ff6347;
+border-radius: 12px;
+border: 3px solid #ffff00red;
+}
