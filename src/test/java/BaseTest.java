@@ -16,7 +16,7 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
-    @AfterClass
+   @AfterClass
     public void finish() {
         driver.quit();
     }
